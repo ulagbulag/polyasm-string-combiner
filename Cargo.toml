@@ -19,7 +19,7 @@ default = ["rayon"]
 rayon = ["dep:rayon", "dep:rayon-cond"]
 
 [dependencies]
-bio = { git = "https://github.com/ulagbulag/rust-bio.git", branch = "feat/generic-alignment", default-features = false }
+bio = { git = "https://github.com/ulagbulag/polyasm-rust-bio", branch = "feat/polyasm", default-features = false }
 rayon = { version = "1.10", optional = true }
 rayon-cond = { version = "0.3", optional = true }
 serde = { version = "1.0", features = ["derive"] }
